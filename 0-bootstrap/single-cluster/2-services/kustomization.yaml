@@ -21,18 +21,18 @@ resources:
 #- argocd/instances/ibm-process-mining-instance.yaml
 
 ## Cloud Pak for Data
-#- argocd/operators/ibm-cpd-platform-operator.yaml
-#- argocd/operators/ibm-cpd-scheduling-operator.yaml
-#- argocd/instances/ibm-cpd-instance.yaml
+- argocd/operators/ibm-cpd-platform-operator.yaml
+- argocd/operators/ibm-cpd-scheduling-operator.yaml
+- argocd/instances/ibm-cpd-instance.yaml
 
 ## IBM Foundational Services / Common Services
-#- argocd/operators/ibm-foundations.yaml
-#- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
 #- argocd/operators/ibm-automation-foundation-core-operator.yaml
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 
 ## IBM Catalogs
-#- argocd/operators/ibm-catalogs.yaml
+- argocd/operators/ibm-catalogs.yaml
 
 
 # Required for IBM MQ
@@ -42,7 +42,7 @@ resources:
 #- argocd/instances/cert-manager-instance.yaml
 
 # Sealed Secrets
-#- argocd/instances/sealed-secrets.yaml
+- argocd/instances/sealed-secrets.yaml
 
 # CICD
 #- argocd/operators/grafana-operator.yaml
